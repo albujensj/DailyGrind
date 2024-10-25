@@ -1,0 +1,125 @@
+html{
+    padding: 0;
+    border: 0;
+    font-family: "Questrial", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.root{
+    --cream:#F4F3E6;
+    --cherry: #4b0402;
+    --orange: #FC703C;
+    --peach: #FFA175;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F4F3E6;
+}
+
+header{
+    width: 100%;
+    height: 15vh;
+}
+
+.nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    background-color:#00000070;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-item{
+    color: #f4f3e681;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-item:hover{
+    text-decoration: underline #f4f3e681;
+}
+
+.nav h2{
+    font-family: "Rozha One", sans serif;
+    font-size: 35px;
+    color:#f4f3e681;
+}
+
+
+
+
+/*MENU*/
+#menu-container{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 300px;
+    box-sizing: border-box;
+}
+.menu-item-img{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: #000000 3px 3px 10px;
+}
+
+.menu-items img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    border-radius: 2px;
+}
+
+.menu-item-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.menu-items h3{
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.menu-items a{
+    text-decoration: none;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    font-weight: 600;
+    color: #FC703C;
+    background-color: #5D0703;
+    border-radius: 40px;
+    transition: background-color 0.2s ease;
+}
+
+.menu-items a:hover{
+    text-decoration: underline 1px #FC703C;
+    background-color: #290402;
+}
